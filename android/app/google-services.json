@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "933905317400",
+    "project_id": "mallmanagement-31539",
+    "storage_bucket": "mallmanagement-31539.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933905317400:android:67eb7be452b66ef7538d6d",
+        "android_client_info": {
+          "package_name": "com.example.MandM.mall_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933905317400-136716c2k007cgf4d966hfp1mbvcnflq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuF3tlmWWmPljf2Gd5J-iYQ_zr6ljhnwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933905317400-136716c2k007cgf4d966hfp1mbvcnflq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
