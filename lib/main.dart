@@ -1,5 +1,6 @@
 // ignore_for_file: import_of_legacy_library_into_null_safe
 
+import 'package:mall_management/login.dart';
 import 'package:mall_management/qrcode.dart';
 import 'package:mall_management/location.dart';
 import 'package:mall_management/offers.dart';
@@ -27,8 +28,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // Scaffold() adds background to page
     return MaterialApp(
-      home: const Home(),
+      home: const Loginpage(),
       routes: {
+        MyRoutes.homeRoute: (context) => const Home(),
         MyRoutes.gamesRoute: (context) => const Games(),
         MyRoutes.parkingRoute: (context) => const Parking(),
         MyRoutes.paymentRoute: (context) => const Payments(),

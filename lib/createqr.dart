@@ -15,6 +15,7 @@ class _CreateScreenState extends State<CreateScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepPurple,
         title: const Text("Create QR Code"),
       ),
       body: Column(
@@ -23,7 +24,7 @@ class _CreateScreenState extends State<CreateScreen> {
         children: [
           // qr code
           BarcodeWidget(
-            color: Colors.blue,
+            color: Colors.deepPurple,
             data: qrString,
             height: 250,
             width: 250,
@@ -42,7 +43,7 @@ class _CreateScreenState extends State<CreateScreen> {
                 hintText: "Enter you data here",
                 border: OutlineInputBorder(
                   borderSide: BorderSide(
-                    color: Colors.blue,
+                    color: Colors.deepPurple,
                     width: 2,
                   ),
                 ),
